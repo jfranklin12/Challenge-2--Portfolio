@@ -45,3 +45,14 @@ nav a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration : none;
 }
+
+/* Main */
+main {
+    display: flex;
+}
+/* About Me-Sibebar */
+.sidebar {
+    background-color:khaki;
+    padding: 30px;
+    width: 25%;
+}
