@@ -56,3 +56,16 @@ main {
     padding: 30px;
     width: 25%;
 }
+
+/* Applications */
+.apps {
+    flex:4;
+    background-color: green;
+    width:75%;
+    padding: 50px;
+}
+
+.apps #fanpage {
+    background-image: url(https://www.gannett-cdn.com/presto/2020/01/20/PASH/5325a746-a2d9-479a-ba66-c851e2fb2a50-SLO11of201.jpg?width=660&height=472&fit=crop&format=pjpg&auto=webp);
+    height:472px;
+}
