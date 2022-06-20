@@ -4,3 +4,44 @@ body {
     flex-direction: column;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* This section will describe the header */
+header {
+    background-color: navy;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    color:aliceblue;
+    font-size: 350%;
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Subheader */
+nav {
+    background-color: blueviolet;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    font-size: 175%;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration : none;
+}
