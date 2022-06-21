@@ -5,21 +5,21 @@ body {
 
 /* This section will describe the header */
 header {
-    background-color: navy;
+    background-color: lightcoral;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 35px;
     width: 100%;
 }
 
 header h1 {
-    color:aliceblue;
+    color:black;
     font-size: 350%;
     display: flex;
     justify-content: center;
 }
 
 header p {
-    color: aliceblue;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150%;
     padding-top: 20px;
@@ -29,7 +29,7 @@ header p {
 
 /* Subheader */
 nav {
-    background-color: blueviolet;
+    background-color: lightgoldenrodyellow;
     padding: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -37,54 +37,86 @@ nav {
 
 nav a {
     font-size: 175%;
-    color: aliceblue;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration : none;
 }
 
-/* divider */
-.aboutme p, .apps #fanpage {
-    border-left: 10px solid black;
-    left: 0%;
-    height: 100%;
-    margin-left:  10%;
-}
-
 /* Main */
-main {
-    display: flex;
-    flex-direction: column;
-}
 
 
 /* About Me*/
-.aboutme {
-    background-color:rgb(250, 2, 56);
+.aboutme, .work {
+    background-color:lightcoral;
     padding: 30px;
+    display: flex;
+}
+
+.aboutme h2, .work h2 {
+    padding: 5%;
+}
+
+/* divider */
+.aboutme div, .work div {
+    border-left: 10px solid black;
+    position: relative;
+    padding: 10px;
 }
 
 .aboutme p {
     padding: 10px;
-
 }
 
 
-/* Applications */
-.apps {
-    background-color: green;
+/* Work Section */
+/* .work {
+    background-color: lightgoldenrodyellow;
     display:flex;
-    flex-flow: column wrap;
     padding: 30px;
+} */
+
+/* Grid Section */
+.apps {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+
 }
 
-#fanpage {
-    position: relative;
-    text-align: center;
-    color: aliceblue;
+/* #fanpage {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 1;
+    color: black;
+    object-fit: scale-down;
 }
 
-#fanpage h3 {
-    position: absolute;
-    top: 50%;
-    left: 30%;
+#app2 {
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 2;
+    color: black;
+}
+
+#app3 {
+    grid-column: 2/ span 2;
+    grid-row: 2/ span 2;
+    color: black;
+}
+
+#app4 {
+    grid-column: 1/ span 1;
+    grid-row: 3/ span 3;
+    color: black;
+}
+
+#app5 {
+    grid-column: 2/ span 2;
+    grid-row: 3/ span 3;
+    color: black;
+
+} */
+
+.pictures {
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
 }
