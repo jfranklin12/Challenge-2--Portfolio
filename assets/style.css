@@ -1,28 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Prompt:wght@300&display=swap');
+
 body {
     background-color: lightskyblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Prompt', sans-serif;
 }
 
 /* This section will describe the header */
 header {
     background-color: lightcoral;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 35px;
-    width: 100%;
+    font-family:'Dongle', Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
 }
 
 header h1 {
     color:black;
-    font-size: 350%;
+    font-size: 500%;
     display: flex;
     justify-content: center;
 }
 
 header p {
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 150%;
-    padding-top: 20px;
+    font-family:'Dongle', Georgia, 'Times New Roman', Times, serif;
+    font-size: 275%;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
 }
@@ -36,9 +37,8 @@ nav {
 }
 
 nav a {
-    font-size: 175%;
+    font-size: 200%;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration : none;
 }
 
@@ -48,36 +48,32 @@ nav a {
 /* About Me*/
 .aboutme {
     background-color:lightcoral;
-    padding: 10px;
+    padding: 2%;
     display: flex;
 }
 
 .aboutme p {
-    padding: 10px;
+    padding: 2%;
+    font-size: 130%;
 }
 
 .aboutme img {
-    padding: 6px
+    padding-top: 25px;
+    height: 350px;
 }
 
 /* Side heading format */
-.aboutme h2, .work h2 {
-    padding: 50px;
+.aboutme h2, .work h2, .contact h2 {
+    padding: 2%;
+    font-family:'Dongle', Georgia, 'Times New Roman', Times, serif;
+    font-size: 275%;
+    border-right: 10px solid black;
 }
-
-/* divider */
-.aboutme div, .work div {
-    border-left: 10px solid black;
-    /* position: relative; */
-    padding: 10px;
-}
-
-
 
 /* Work Section */
 .work {
     background-color: lightgoldenrodyellow;
-    padding: 10px;
+    padding: 2.5%;
     display: flex;
 }
 
@@ -93,8 +89,6 @@ nav a {
     justify-content: center;
     flex: 50%;
     padding: 3%;
-
-
 }
 .app-item h3 {
     position:absolute;
@@ -116,6 +110,28 @@ nav a {
     background-color: aliceblue;
     font-size: larger;
     border: 6px solid palevioletred;
+}
+
+/* Contact Me */
+
+.contact {
+    background-color: lightcoral;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 6px;
+}
+
+.info li{
+    display: inline-block;
+    font-size: 200%;
+    color: black;
+    padding: 50px;
+    
 }
 
 
