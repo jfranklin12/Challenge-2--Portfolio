@@ -108,7 +108,7 @@ nav a {
 #mainpage h3 {
     color:navy;
     background-color: aliceblue;
-    font-size: larger;
+    font-size:x-large;
     border: 6px solid palevioletred;
 }
 
@@ -118,11 +118,6 @@ nav a {
     background-color: lightcoral;
     padding: 1%;
     display: flex;
-    align-content: center;
-}
-
-.info ul {
-    padding: 6px;
 }
 
 .info li{
@@ -133,5 +128,5 @@ nav a {
 
 .info li a {
     color: black;
-    text-decoration: none;   
+    text-decoration: none;
 }
